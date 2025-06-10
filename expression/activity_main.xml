@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFF9C4">
+
+    <TextView
+        android:id="@+id/textViewEmotion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bagaimana perasaanmu hari ini?"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnSenang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="😊 Senang"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/btnBiasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="😐 Biasa Saja"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/btnSedih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="😢 Sedih"
+        android:layout_margin="8dp"/>
+</LinearLayout>
